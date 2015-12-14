@@ -9,7 +9,7 @@ The resulting data file contains 1 row for every combination of subject, identif
 
 For more details, please see the README.TXT file including in the download above.
 
-**File Format**: The data file is a space delimmitted file with each datafield in ""
+**File Format**: The data file is a space delimitted file with each datafield in ""
 
 The following fields are in the resulting file
 
@@ -18,72 +18,71 @@ Column Name | Format | Description
 activitysubjectID | string | Concatenated string of the subject ID and activity ID
 subjectID | integer | Unique ID for subject in test. Value between 1 and 30.
 activity | string | One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-timedBodyAccelerationSignal-mean()-X | decimal |
-timedBodyAccelerationSignal-mean()-Y | decimal |
-timedBodyAccelerationSignal-mean()-Z | decimal |
-timedBodyAccelerationSignal-std()-X | decimal |
-timedBodyAccelerationSignal-std()-Y | decimal |
-timedBodyAccelerationSignal-std()-Z | decimal |
-timedGravityAccelerationSignal-mean()-X | decimal |
-timedGravityAccelerationSignal-mean()-Y | decimal |
-timedGravityAccelerationSignal-mean()-Z | decimal |
-timedGravityAccelerationSignal-std()-X | decimal |
-timedGravityAccelerationSignal-std()-Y | decimal |
-timedGravityAccelerationSignal-std()-Z | decimal |
-timedBodyAccelerationJerkSignal-mean()-X | decimal |
-timedBodyAccelerationJerkSignal-mean()-Y | decimal |
-timedBodyAccelerationJerkSignal-mean()-Z | decimal |
-timedBodyAccelerationJerkSignal-std()-X | decimal |
-timedBodyAccelerationJerkSignal-std()-Y | decimal |
-timedBodyAccelerationJerkSignal-std()-Z | decimal |
-timedBodyGyroscopeSignal-mean()-X | decimal |
-timedBodyGyroscopeSignal-mean()-Y | decimal |
-timedBodyGyroscopeSignal-mean()-Z | decimal |
-timedBodyGyroscopeSignal-std()-X | decimal |
-timedBodyGyroscopeSignal-std()-Y | decimal |
-timedBodyGyroscopeSignal-std()-Z | decimal |
-timedBodyGyroscopeJerkSignal-mean()-X | decimal |
-timedBodyGyroscopeJerkSignal-mean()-Y | decimal |
-timedBodyGyroscopeJerkSignal-mean()-Z | decimal |
-timedBodyGyroscopeJerkSignal-std()-X | decimal |
-timedBodyGyroscopeJerkSignal-std()-Y | decimal |
-timedBodyGyroscopeJerkSignal-std()-Z | decimal |
-timedBodyAccelerationMagnitude-mean() | decimal |
-timedBodyAccelerationMagnitude-std() | decimal |
-timedGravityAccelerationMagnitude-mean() | decimal |
-timedGravityAccelerationMagnitude-std() | decimal |
-timedBodyAccelerationJerkMagnitude-mean() | decimal |
-timedBodyAccelerationJerkMagnitude-std() | decimal |
-timedBodyGyroscopeMagnitude-mean() | decimal |
-timedBodyGyroscopeMagnitude-std() | decimal |
-timedBodyGyroscopeJerkMagnitude-mean() | decimal |
-timedBodyGyroscopeJerkMagnitude-std() | decimal |
-frequencyBodyAccelerationSignal-mean()-X | decimal |
-frequencyBodyAccelerationSignal-mean()-Y | decimal |
-frequencyBodyAccelerationSignal-mean()-Z | decimal |
-frequencyBodyAccelerationSignal-std()-X | decimal |
-frequencyBodyAccelerationSignal-std()-Y | decimal |
-frequencyBodyAccelerationSignal-std()-Z | decimal |
-frequencyBodyAccelerationJerkSignal-mean()-X | decimal |
-frequencyBodyAccelerationJerkSignal-mean()-Y | decimal |
-frequencyBodyAccelerationJerkSignal-mean()-Z | decimal |
-frequencyBodyAccelerationJerkSignal-std()-X | decimal |
-frequencyBodyAccelerationJerkSignal-std()-Y | decimal |
-frequencyBodyAccelerationJerkSignal-std()-Z | decimal |
-frequencyBodyGyroscopeSignal-mean()-X | decimal |
-frequencyBodyGyroscopeSignal-mean()-Y | decimal |
-frequencyBodyGyroscopeSignal-mean()-Z | decimal |
-frequencyBodyGyroscopeSignal-std()-X | decimal |
-frequencyBodyGyroscopeSignal-std()-Y | decimal |
-frequencyBodyGyroscopeSignal-std()-Z | decimal |
-frequencyBodyAccelerationMagnitude-mean() | decimal |
-frequencyBodyAccelerationMagnitude-std() | decimal |
-frequencyBodyBodyAccelerationJerkMagnitude-mean() | decimal |
-frequencyBodyBodyAccelerationJerkMagnitude-std() | decimal |
-frequencyBodyBodyGyroscopeMagnitude-mean() | decimal |
-frequencyBodyBodyGyroscopeMagnitude-std() | decimal |
-frequencyBodyBodyGyroscopeJerkMagnitude-mean() | decimal |
-frequencyBodyBodyGyroscopeJerkMagnitude-std() | decimal |
+timedBodyAccelerationSignal-mean()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationSignal-mean()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationSignal-mean()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationSignal-std()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationSignal-std()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationSignal-std()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedGravityAccelerationSignal-mean()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedGravityAccelerationSignal-mean()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedGravityAccelerationSignal-mean()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedGravityAccelerationSignal-std()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedGravityAccelerationSignal-std()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedGravityAccelerationSignal-std()-Z | decimal |Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationJerkSignal-mean()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationJerkSignal-mean()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationJerkSignal-mean()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationJerkSignal-std()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationJerkSignal-std()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationJerkSignal-std()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeSignal-mean()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeSignal-mean()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeSignal-mean()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeSignal-std()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeSignal-std()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeSignal-std()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeJerkSignal-mean()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeJerkSignal-mean()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeJerkSignal-mean()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeJerkSignal-std()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeJerkSignal-std()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeJerkSignal-std()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationMagnitude-mean() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationMagnitude-std() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedGravityAccelerationMagnitude-mean() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedGravityAccelerationMagnitude-std() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt timedBodyAccelerationJerkMagnitude-mean() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyAccelerationJerkMagnitude-std() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeMagnitude-mean() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeMagnitude-std() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeJerkMagnitude-mean() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+timedBodyGyroscopeJerkMagnitude-std() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationSignal-mean()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationSignal-mean()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationSignal-mean()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationSignal-std()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationSignal-std()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationSignal-std()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationJerkSignal-mean()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationJerkSignal-mean()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationJerkSignal-mean()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationJerkSignal-std()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationJerkSignal-std()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationJerkSignal-std()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyGyroscopeSignal-mean()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyGyroscopeSignal-mean()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyGyroscopeSignal-mean()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyGyroscopeSignal-std()-X | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyGyroscopeSignal-std()-Y | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyGyroscopeSignal-std()-Z | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationMagnitude-mean() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyAccelerationMagnitude-std() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyBodyAccelerationJerkMagnitude-mean() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyBodyAccelerationJerkMagnitude-std() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyBodyGyroscopeMagnitude-mean() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyBodyGyroscopeMagnitude-std() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyBodyGyroscopeJerkMagnitude-mean() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
+frequencyBodyBodyGyroscopeJerkMagnitude-std() | decimal | Mean of all values in test and traing for subject/activity. See features_info.txt
 
 
 
