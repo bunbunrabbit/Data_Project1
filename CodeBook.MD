@@ -7,6 +7,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The resulting data file contains 1 row for every combination of subject, identified by subjectID and Activity.
 
-~File Format~: The data file is a space delimmitted file with each datafield in ""
+~~File Format~~: The data file is a space delimmitted file with each datafield in ""
 
 
