@@ -15,75 +15,75 @@ The following fields are in the resulting file
 
 Column Name | Format | Description
 ------------|--------|--------------
-activitysubjectID | string | concatenated string of the subject ID and activity ID
+activitysubjectID | string | Concatenated string of the subject ID and activity ID
 subjectID | integer | Unique ID for subject in test. Value between 1 and 30.
-activity | string | one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-timedBodyAccelerationSignal-mean()-X | |
-timedBodyAccelerationSignal-mean()-Y | |
-timedBodyAccelerationSignal-mean()-Z | |
-timedBodyAccelerationSignal-std()-X | |
-timedBodyAccelerationSignal-std()-Y | |
-timedBodyAccelerationSignal-std()-Z | |
-timedGravityAccelerationSignal-mean()-X | |
-timedGravityAccelerationSignal-mean()-Y | |
-timedGravityAccelerationSignal-mean()-Z | |
-timedGravityAccelerationSignal-std()-X | |
-timedGravityAccelerationSignal-std()-Y | |
-timedGravityAccelerationSignal-std()-Z | |
-timedBodyAccelerationJerkSignal-mean()-X | |
-timedBodyAccelerationJerkSignal-mean()-Y | |
-timedBodyAccelerationJerkSignal-mean()-Z | |
-timedBodyAccelerationJerkSignal-std()-X | |
-timedBodyAccelerationJerkSignal-std()-Y | |
-timedBodyAccelerationJerkSignal-std()-Z | |
-timedBodyGyroscopeSignal-mean()-X | |
-timedBodyGyroscopeSignal-mean()-Y | |
-timedBodyGyroscopeSignal-mean()-Z | |
-timedBodyGyroscopeSignal-std()-X | |
-timedBodyGyroscopeSignal-std()-Y | |
-timedBodyGyroscopeSignal-std()-Z | |
-timedBodyGyroscopeJerkSignal-mean()-X | |
-timedBodyGyroscopeJerkSignal-mean()-Y | |
-timedBodyGyroscopeJerkSignal-mean()-Z | |
-timedBodyGyroscopeJerkSignal-std()-X | |
-timedBodyGyroscopeJerkSignal-std()-Y | |
-timedBodyGyroscopeJerkSignal-std()-Z | |
-timedBodyAccelerationMagnitude-mean() | |
-timedBodyAccelerationMagnitude-std() | |
-timedGravityAccelerationMagnitude-mean() | |
-timedGravityAccelerationMagnitude-std() | |
-timedBodyAccelerationJerkMagnitude-mean() | |
-timedBodyAccelerationJerkMagnitude-std() | |
-timedBodyGyroscopeMagnitude-mean() | |
-timedBodyGyroscopeMagnitude-std() | |
-timedBodyGyroscopeJerkMagnitude-mean() | |
-timedBodyGyroscopeJerkMagnitude-std() | |
-frequencyBodyAccelerationSignal-mean()-X | |
-frequencyBodyAccelerationSignal-mean()-Y | |
-frequencyBodyAccelerationSignal-mean()-Z | |
-frequencyBodyAccelerationSignal-std()-X | |
-frequencyBodyAccelerationSignal-std()-Y | |
-frequencyBodyAccelerationSignal-std()-Z | |
-frequencyBodyAccelerationJerkSignal-mean()-X | |
-frequencyBodyAccelerationJerkSignal-mean()-Y | |
-frequencyBodyAccelerationJerkSignal-mean()-Z | |
-frequencyBodyAccelerationJerkSignal-std()-X | |
-frequencyBodyAccelerationJerkSignal-std()-Y | |
-frequencyBodyAccelerationJerkSignal-std()-Z | |
-frequencyBodyGyroscopeSignal-mean()-X | |
-frequencyBodyGyroscopeSignal-mean()-Y | |
-frequencyBodyGyroscopeSignal-mean()-Z | |
-frequencyBodyGyroscopeSignal-std()-X | |
-frequencyBodyGyroscopeSignal-std()-Y | |
-frequencyBodyGyroscopeSignal-std()-Z | |
-frequencyBodyAccelerationMagnitude-mean() | |
-frequencyBodyAccelerationMagnitude-std() | |
-frequencyBodyBodyAccelerationJerkMagnitude-mean() | |
-frequencyBodyBodyAccelerationJerkMagnitude-std() | |
-frequencyBodyBodyGyroscopeMagnitude-mean() | |
-frequencyBodyBodyGyroscopeMagnitude-std() | |
-frequencyBodyBodyGyroscopeJerkMagnitude-mean() | |
-frequencyBodyBodyGyroscopeJerkMagnitude-std() | |
+activity | string | One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+timedBodyAccelerationSignal-mean()-X | decimal |
+timedBodyAccelerationSignal-mean()-Y | decimal |
+timedBodyAccelerationSignal-mean()-Z | decimal |
+timedBodyAccelerationSignal-std()-X | decimal |
+timedBodyAccelerationSignal-std()-Y | decimal |
+timedBodyAccelerationSignal-std()-Z | decimal |
+timedGravityAccelerationSignal-mean()-X | decimal |
+timedGravityAccelerationSignal-mean()-Y | decimal |
+timedGravityAccelerationSignal-mean()-Z | decimal |
+timedGravityAccelerationSignal-std()-X | decimal |
+timedGravityAccelerationSignal-std()-Y | decimal |
+timedGravityAccelerationSignal-std()-Z | decimal |
+timedBodyAccelerationJerkSignal-mean()-X | decimal |
+timedBodyAccelerationJerkSignal-mean()-Y | decimal |
+timedBodyAccelerationJerkSignal-mean()-Z | decimal |
+timedBodyAccelerationJerkSignal-std()-X | decimal |
+timedBodyAccelerationJerkSignal-std()-Y | decimal |
+timedBodyAccelerationJerkSignal-std()-Z | decimal |
+timedBodyGyroscopeSignal-mean()-X | decimal |
+timedBodyGyroscopeSignal-mean()-Y | decimal |
+timedBodyGyroscopeSignal-mean()-Z | decimal |
+timedBodyGyroscopeSignal-std()-X | decimal |
+timedBodyGyroscopeSignal-std()-Y | decimal |
+timedBodyGyroscopeSignal-std()-Z | decimal |
+timedBodyGyroscopeJerkSignal-mean()-X | decimal |
+timedBodyGyroscopeJerkSignal-mean()-Y | decimal |
+timedBodyGyroscopeJerkSignal-mean()-Z | decimal |
+timedBodyGyroscopeJerkSignal-std()-X | decimal |
+timedBodyGyroscopeJerkSignal-std()-Y | decimal |
+timedBodyGyroscopeJerkSignal-std()-Z | decimal |
+timedBodyAccelerationMagnitude-mean() | decimal |
+timedBodyAccelerationMagnitude-std() | decimal |
+timedGravityAccelerationMagnitude-mean() | decimal |
+timedGravityAccelerationMagnitude-std() | decimal |
+timedBodyAccelerationJerkMagnitude-mean() | decimal |
+timedBodyAccelerationJerkMagnitude-std() | decimal |
+timedBodyGyroscopeMagnitude-mean() | decimal |
+timedBodyGyroscopeMagnitude-std() | decimal |
+timedBodyGyroscopeJerkMagnitude-mean() | decimal |
+timedBodyGyroscopeJerkMagnitude-std() | decimal |
+frequencyBodyAccelerationSignal-mean()-X | decimal |
+frequencyBodyAccelerationSignal-mean()-Y | decimal |
+frequencyBodyAccelerationSignal-mean()-Z | decimal |
+frequencyBodyAccelerationSignal-std()-X | decimal |
+frequencyBodyAccelerationSignal-std()-Y | decimal |
+frequencyBodyAccelerationSignal-std()-Z | decimal |
+frequencyBodyAccelerationJerkSignal-mean()-X | decimal |
+frequencyBodyAccelerationJerkSignal-mean()-Y | decimal |
+frequencyBodyAccelerationJerkSignal-mean()-Z | decimal |
+frequencyBodyAccelerationJerkSignal-std()-X | decimal |
+frequencyBodyAccelerationJerkSignal-std()-Y | decimal |
+frequencyBodyAccelerationJerkSignal-std()-Z | decimal |
+frequencyBodyGyroscopeSignal-mean()-X | decimal |
+frequencyBodyGyroscopeSignal-mean()-Y | decimal |
+frequencyBodyGyroscopeSignal-mean()-Z | decimal |
+frequencyBodyGyroscopeSignal-std()-X | decimal |
+frequencyBodyGyroscopeSignal-std()-Y | decimal |
+frequencyBodyGyroscopeSignal-std()-Z | decimal |
+frequencyBodyAccelerationMagnitude-mean() | decimal |
+frequencyBodyAccelerationMagnitude-std() | decimal |
+frequencyBodyBodyAccelerationJerkMagnitude-mean() | decimal |
+frequencyBodyBodyAccelerationJerkMagnitude-std() | decimal |
+frequencyBodyBodyGyroscopeMagnitude-mean() | decimal |
+frequencyBodyBodyGyroscopeMagnitude-std() | decimal |
+frequencyBodyBodyGyroscopeJerkMagnitude-mean() | decimal |
+frequencyBodyBodyGyroscopeJerkMagnitude-std() | decimal |
 
 
 
