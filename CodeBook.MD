@@ -15,16 +15,9 @@ The following fields are in the resulting file
 
 Column Name | Format | Description
 ------------|--------|--------------
-activitysubjectID
-subjectID
-activity | string | one of 
-    * WALKING, 
-    * WALKING_UPSTAIRS, 
-    * WALKING_DOWNSTAIRS, 
-    * SITTING, 
-    * STANDING
-    * LAYING
-
+activitysubjectID | string | concatenated string of the subject ID and activity ID
+subjectID | integer | Unique ID for subject in test. Value between 1 and 30.
+activity | string | one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 timedBodyAccelerationSignal-mean()-X | |
 timedBodyAccelerationSignal-mean()-Y | |
 timedBodyAccelerationSignal-mean()-Z | |
