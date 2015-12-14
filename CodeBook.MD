@@ -5,7 +5,9 @@ The *tidydata.txt* file contains data that was downloaded and reformatted from t
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The resulting data file contains 1 row for every combination of subject, identified by subjectID and Activity.
+The resulting data file contains 1 row for every combination of subject, identified by subjectID and Activity. The resulting values are the calculated Mean of all of the datapoints for that variable in the combined test and training datasets.  Only the variables describing the mean and the standard deviation are included.  
+
+For more details, please see the README.TXT file including in the download above.
 
 **File Format**: The data file is a space delimmitted file with each datafield in ""
 
@@ -13,6 +15,16 @@ The following fields are in the resulting file
 
 Column Name | Format | Description
 ------------|--------|--------------
+activitysubjectID
+subjectID
+activity | string | one of 
+    * WALKING, 
+    * WALKING_UPSTAIRS, 
+    * WALKING_DOWNSTAIRS, 
+    * SITTING, 
+    * STANDING
+    * LAYING
+
 timedBodyAccelerationSignal-mean()-X | |
 timedBodyAccelerationSignal-mean()-Y | |
 timedBodyAccelerationSignal-mean()-Z | |
